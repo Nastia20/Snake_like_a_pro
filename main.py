@@ -22,7 +22,7 @@ x1_change = 0
 y1_change = 0
  
 font_style = pygame.font.SysFont("TimesNewRoman", 25)
-score_font = pygame.font.SysFont("TimesNewRoman", 35)
+score_font = pygame.font.SysFont("TimesNewRoman", 25)
 
 def Your_score(score):
     value = score_font.render("Your Score: " + str(score), True, score_color)
